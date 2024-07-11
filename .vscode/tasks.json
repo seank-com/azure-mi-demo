@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "args": [
+        "build",
+        "${workspaceFolder}/azure-mi-demo.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "type": "shell",
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
